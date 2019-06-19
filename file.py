@@ -79,3 +79,8 @@ submit = requests.post(api_url_request + api_token, files=answer)
 #    "decifrado": "when in doubt, leave it out. joshua bloch",
 #    "resumo_criptografico": "3217accf836703467f2af0f195edc3d0fcb5a9dd"
 #}
+
+# here we create new data_file.json file with write mode using file i/o operation 
+#with open('json_file.json', "w") as file_write:
+# write json data into file
+#json.dump(person_data, file_write)
